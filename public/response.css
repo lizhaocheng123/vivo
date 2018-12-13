@@ -1,0 +1,86 @@
+ul li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+*{
+    margin:0;
+}
+.container-fluid{
+    box-sizing: border-box;
+    
+}
+body{
+    color:#f1f1f1;
+}
+#bottom{
+    position: relative;
+    padding-left:0;
+    padding-right:0;
+}
+#bottom  span{
+    top:30px;
+    left:130px;
+    position:absolute;
+}
+#bottom  img{
+    width:100%;
+    height:100%;
+}
+#bottom img:hover{
+    box-shadow: 2px 3px 3px 1px #b8b8b8;
+}
+.foot{
+    position: relative;
+}
+.foot span{
+    position: absolute;
+    top:20px;
+    left:25%;
+    font-size:14px;
+    color:#000;
+}
+.foot span a:hover{
+    cursor:pointer;
+}
+.zi{
+    color:#000;
+}
+.aaa{
+    color:#fff;
+    margin-left:10px;
+}
+.card-body p{
+    color:#000;
+}
+.card-body p:hover{
+    color:lightblue;
+}
+.datu{
+    margin-top:10px;
+    width:100%;
+    padding-left:0;
+    padding-right:0;
+}
+.datu div{
+    width:100%;
+    padding-left:0;
+    padding-right:0;
+    margin-left:15px;
+}
+.datu div a img{
+    width:100%;
+}
+.datu .hover a img{
+    cursor:pointer;
+    
+}
+.datu h4{
+    color:lightsalmon;
+    margin-left:15px;
+    margin-top:10px;
+    margin-bottom:15px;
+}
